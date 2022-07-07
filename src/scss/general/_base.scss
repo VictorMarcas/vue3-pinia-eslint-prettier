@@ -1,0 +1,11 @@
+@use '../settings/typography';
+@use '../settings/spacing';
+
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    font-family: typography.$font_family;
+}
