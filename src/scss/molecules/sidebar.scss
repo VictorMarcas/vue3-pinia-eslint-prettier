@@ -1,0 +1,4 @@
+@use '../settings/spacing';
+.sidebar {
+    padding: spacing.$spacing_15;
+}

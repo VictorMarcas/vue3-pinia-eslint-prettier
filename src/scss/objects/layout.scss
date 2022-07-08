@@ -1,0 +1,9 @@
+@use '../settings/spacing';
+.layout {
+    display: grid;
+    grid-template-columns: spacing.$spacing_16 1fr;
+}
+
+:export {
+    layout: layout;
+}
